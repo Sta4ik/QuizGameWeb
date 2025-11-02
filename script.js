@@ -48,12 +48,12 @@ function startQuiz(){
 function endQuiz(){
     scoreText.textContent = `Ваш счёт: ${score}`;
     secondBlock.style.display = 'none';
-    thirdBlock.style.display = 'block';
+    thirdBlock.style.display = 'flex';
 
 }
 
 function backMain(){
-    firstBlock.style.display = 'block';
+    firstBlock.style.display = 'flex';
     thirdBlock.style.display = 'none';
     score = 0;
 }
